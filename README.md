@@ -5,5 +5,5 @@ The script that closes tags in HTML
 Дальше, программа покажет каких закрытых тегов в коде не хватает.
 
 Примеры :
-<!-- Ввод: "hellomeas<div id='N1'><p>HI</p>veryvell<script>if(me or not me)" -->
-<!-- Вывод: "</script></div>" -->
+Ввод: hellomeas&lt;div id='N1'&gt;&lt;p&gt;HI&lt;/p&gt;veryvell&lt;script&gt;if(me or not me)"
+Вывод: &lt;/script&gt;&lt;/div&gt;
