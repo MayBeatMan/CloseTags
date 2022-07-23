@@ -61,6 +61,7 @@ while Tags != '':
 
     #print(CloseTag)
 
+    #Функция re.sub() для перестановки данных 
     Tags = re.sub(OpenTag, '', Tags, count=1)
 
     if CloseTag in Tags:
